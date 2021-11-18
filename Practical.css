@@ -1,0 +1,102 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color:white;
+    overflow: hidden;
+    margin-right: 20px;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .topnav h3 {
+      text-align: left;
+      float: left;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  /*Banner*/
+  #banner {
+    margin-top: 20px;
+    height: 500px;
+    margin-bottom: 15px;
+    display: flex;
+    font-size: 40px;
+    color: white;
+  }
+  #center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #banner {
+    background-image: url(./Practical.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .new{
+      float: left;
+  }
+  #banner h2 h3{
+    margin: 20px 20px;
+    text-align: center;
+    color: #fff;
+    
+  }
+  #footer {
+    position: fixed;
+    font-style: bold;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:white;
+    color: rgb(99, 87, 87);
+    float: left;
+    margin-left: 20px;
+    font-size: medium;
+  }
+    #banner a {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color:black;
+    background-color:white;
+    text-decoration: none;
+    border-radius: 8px;
+    float: right;
+    margin-inline: 20px;
+    padding: 10px;
+ 
+}
+#banner a:hover{
+    background-color: blue;
+}
+#web a{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color:black;
+    background-color:white;
+    text-decoration: none;
+    margin-right: 20px;
+    border-radius: 8px;
+    float: right;
+    padding: 20px;
+}
